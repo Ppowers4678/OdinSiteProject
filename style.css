@@ -2,6 +2,9 @@
     max-width: 100%;
 }
 
+* {
+    max-width: 100%;
+}
 body {
     margin: 0px;
     min-height:100vh;
@@ -23,31 +26,38 @@ a {
     border-left: 2px;
     border-right: 2px;
     border-color: rgb(234, 226, 183);
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    z-index: 99999;
 }
 
-#Flower {
-    position: relative;
-    height: 0px;
-    text-align: center;
-    color: rgb(39, 41, 71);
+#Flower {position:relative;
+    width: 60px;
 }
 
 .Flower1 {
-    position: absolute;
-    right: 715px;
-    top: 0px;
-    background-size: contain;
-    width: auto;
-    height: 60px;
-    transform:rotate(270deg);
+    position: relative;
+    rotate: 0 0 1 270deg;
+    bottom: 93px;
+    left: 450px;
+
 }
 
 .Flower2 {
-    position: absolute;
-    left:  712px;
-    width: auto;
-    height: 60px;
+    position: relative;
+    transform:scaleX(-1);
+    bottom:30px;
+    right:40px;
 }
+
+.Flower3 {
+    position:relative;
+    bottom: 200px;
+    left: 475px;
+    rotate: 0 0 1 -50deg;
+}
+
 .head-container {
     background-color: rgb(39, 41, 71);
     color: white;
@@ -59,6 +69,9 @@ a {
     border-right: 3px rgb(234, 226, 183);
     border-style:inset;
     display: flex;
+    width:auto;
+    height: 100px;
+    padding-top: 20px;
 }
 
 .left {
@@ -84,6 +97,7 @@ a {
     top: 25px;
     font-size: 16px;
     font-family: cursive;
+    font-style:italic;
 }
 
 .DescText {
@@ -97,21 +111,21 @@ a {
 
 }
 .links {
-    padding: 10px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
     position: relative;
-    bottom: 52px;
+    left: 320px;
+    bottom: 20px;
 }
 .headerlink {
-    margin: 6px;
    font-size: 10px;
-   padding-top: 20px;
-   align-self: flex-end;
+   font-weight:800;
+   font-style:oblique;
+   text-shadow:.5px 0px 0px rgb(35, 35, 65);
+   align-self: center;
+   justify-content: center;
    font-family:cursive;
    text-decoration: underline;
    color: rgb(39, 41, 71);
+   margin:2px;
 }
 
 .CoverPhoto {
@@ -123,13 +137,9 @@ a {
     display: flex;
     margin-left: 320px;
     position: relative;
-    bottom: 80px;
+    bottom: 0px;
     
     }
-
-.right {
-    width: 100%;
-}
 
 .middle-container {
     background-color: mintcream; 
