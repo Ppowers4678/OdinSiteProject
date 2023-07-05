@@ -1,0 +1,171 @@
+:root {
+    max-width: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height:100vh;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+    font-family: cursive;
+}
+
+.TopBar {
+    background-color: mintcream;
+    padding-left: 40px;
+    font-family: cursive;
+    text-shadow: 1px 0px 0px rgb(35, 35, 65);
+    color: rgb(39, 41, 71);
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(234, 226, 183);
+}
+
+#Flower {
+    position: relative;
+    height: 0px;
+    text-align: center;
+    color: rgb(39, 41, 71);
+}
+
+.Flower1 {
+    position: absolute;
+    right: 715px;
+    top: 0px;
+    background-size: contain;
+    width: auto;
+    height: 60px;
+    transform:rotate(270deg);
+}
+
+.Flower2 {
+    position: absolute;
+    left:  712px;
+    width: auto;
+    height: 60px;
+}
+.head-container {
+    background-color: rgb(39, 41, 71);
+    color: white;
+    height: 100px;
+    padding-inline: 100px;
+    border-bottom: 6px rgb(234, 226, 183);
+    border-top: 3px rgb(234, 226, 183);
+    border-left: 3px rgb(234, 226, 183);
+    border-right: 3px rgb(234, 226, 183);
+    border-style:inset;
+    display: flex;
+}
+
+.left {
+}
+
+.header {
+    width: 120px;
+    padding-top: 26px;
+    font-size: 8px;
+    font-family:cursive;
+    color: rgb(234, 226, 183);
+    text-decoration: underline;
+    display: flex ;
+    text-align: center;
+    position: relative;
+    left: 15px;
+}
+
+.Intro {
+    position: relative;
+    color: rgb(234, 226, 183);
+    left: 327px;
+    top: 25px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.DescText {
+    position: relative;
+    font-size: 11px;
+    bottom: 20px;
+    left: 4px;
+    width: 145px;
+    text-align: center;
+    font-family: cursive;
+
+}
+.links {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: 52px;
+}
+.headerlink {
+    margin: 6px;
+   font-size: 10px;
+   padding-top: 20px;
+   align-self: flex-end;
+   font-family:cursive;
+   text-decoration: underline;
+   color: rgb(39, 41, 71);
+}
+
+.CoverPhoto {
+    width:auto;
+    height:150px;
+    padding-left:15px;
+    box-shadow: 6px 5px 6px 5px rgb(234, 226, 183);
+    border-radius: 50%;
+    display: flex;
+    margin-left: 320px;
+    position: relative;
+    bottom: 80px;
+    
+    }
+
+.right {
+    width: 100%;
+}
+
+.middle-container {
+    background-color: mintcream; 
+    border-style: solid;
+    border: 2px;
+    border-color: rgb(234, 226, 183);
+}
+
+.quote-container {
+    background-color: ivory;
+    height: 180px;
+    border-style:outset;
+    border-color: rgb(234, 226, 183);
+    border-width: 2px;
+}
+
+.SignUpCon {
+    height: 80px;
+    background-color: mintcream;
+}
+
+.footer-container {
+    background-color: rgb(39, 41, 71);
+    
+}
+
+.footer-text {
+    color: rgb(234, 226, 183);
+    font-size: 8px;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-style:inset;
+    border-color: rgb(234, 226, 183);
+    border-width: 2px;
+}
