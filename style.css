@@ -8,8 +8,9 @@
 body {
     margin: 0px;
     min-height:100vh;
+    display: flex;
+    flex-direction: column;
 }
-
 a {
     text-decoration: none;
     color: lightgrey;
@@ -69,8 +70,9 @@ a {
     border-right: 3px rgb(234, 226, 183);
     border-style:inset;
     display: flex;
-    width:auto;
+    flex-direction: row;
     height: 100px;
+    width: auto;
     padding-top: 20px;
 }
 
