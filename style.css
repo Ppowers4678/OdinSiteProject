@@ -2,10 +2,6 @@
     max-width: 100%;
 }
 
-html {
-    zoom: 250%;
-}
-
 * {
     max-width: 100%;
 }
@@ -13,6 +9,7 @@ body {
     margin: 0px;
     min-height:100vh;
     display: flex;
+    flex: 1;
     flex-direction: column;
 }
 a {
@@ -20,10 +17,10 @@ a {
     color: lightgrey;
     font-family: cursive;
 }
-
 .TopBar {
     background-color: mintcream;
     padding-left: 40px;
+    font-size: 32px;
     font-family: cursive;
     text-shadow: 1px 0px 0px rgb(35, 35, 65);
     color: rgb(39, 41, 71);
@@ -33,36 +30,32 @@ a {
     border-color: rgb(234, 226, 183);
     position: fixed;
     width: 100%;
-    height: 30px;
+    height: 55px;
     z-index: 99999;
+    display: flex;
+    align-items: center;
 }
-
 #Flower {position:relative;
-    width: 60px;
+    width: 120px;
 }
-
 .Flower1 {
     position: relative;
     rotate: 0 0 1 270deg;
     bottom: 93px;
     left: 450px;
-
 }
-
 .Flower2 {
     position: relative;
     transform:scaleX(-1);
     bottom:30px;
     right:40px;
 }
-
 .Flower3 {
     position:relative;
     bottom: 200px;
     left: 475px;
     rotate: 0 0 1 -50deg;
 }
-
 .head-container {
     background-color: rgb(39, 41, 71);
     color: white;
@@ -75,14 +68,12 @@ a {
     border-style:inset;
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 200px;
     width: auto;
-    padding-top: 20px;
+    padding-top: 50px;
 }
-
 .left {
 }
-
 .header {
     width: 120px;
     padding-top: 26px;
@@ -95,7 +86,6 @@ a {
     position: relative;
     left: 15px;
 }
-
 .Intro {
     position: relative;
     color: rgb(234, 226, 183);
@@ -105,7 +95,6 @@ a {
     font-family: cursive;
     font-style:italic;
 }
-
 .DescText {
     position: relative;
     font-size: 11px;
@@ -114,26 +103,24 @@ a {
     width: 145px;
     text-align: center;
     font-family: cursive;
-
 }
 .links {
     position: relative;
-    left: 320px;
-    bottom: 20px;
+    left: 500px;
+    bottom: 35px;
 }
 .headerlink {
-   font-size: 10px;
+   font-size: 20px;
    font-weight:800;
    font-style:oblique;
    text-shadow:.5px 0px 0px rgb(35, 35, 65);
-   align-self: center;
-   justify-content: center;
    font-family:cursive;
    text-decoration: underline;
    color: rgb(39, 41, 71);
    margin:2px;
+   text-align: center;
+   justify-content: center;
 }
-
 .CoverPhoto {
     width:auto;
     height:150px;
@@ -147,14 +134,12 @@ a {
     bottom: 0px;
     
     }
-
 .middle-container {
     background-color: mintcream; 
     border-style: solid;
     border: 2px;
     border-color: rgb(234, 226, 183);
 }
-
 .quote-container {
     background-color: ivory;
     height: 180px;
@@ -162,17 +147,14 @@ a {
     border-color: rgb(234, 226, 183);
     border-width: 2px;
 }
-
 .SignUpCon {
     height: 80px;
     background-color: mintcream;
 }
-
 .footer-container {
     background-color: rgb(39, 41, 71);
     
 }
-
 .footer-text {
     color: rgb(234, 226, 183);
     font-size: 8px;
